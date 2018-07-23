@@ -1,0 +1,70 @@
+#popup_bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+  display: none;
+  transition: 1s display;
+
+}
+
+#popup_main_div {
+	position: fixed;
+	width: 800px;
+	height: 600px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #fff;
+	left: 50%;
+	margin-left: -400px;
+  top:50%;
+  margin-top: -250px;
+}
+
+#close_popup_div {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+  border: 2px solid black;
+	border-radius: 25px;
+	text-align: center;
+	right: 5px;
+	top: 5px;
+  cursor: pointer;
+}
+
+#close_popup_div p {
+	margin-top: 0;
+	font-family: sans-serif;
+	font-weight: bold;
+
+}
+
+#javascript_magic {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  background-color: cyan;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  margin-top: 0;
+
+}
+
+#javascript_desc {
+  text-align: center;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+button {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  top: 400px;
+  position: relative;
+  width: 20%;
+}
